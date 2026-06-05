@@ -94,3 +94,28 @@ overlay.addEventListener("click", () => {
 // if (isNov18) {
 // 	document.getElementById("main").style.backgroundImage = 'url("/IMG/18nov.jpg")';
 // }
+
+
+
+
+
+
+
+
+// BACK TO TOP
+const button = document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+	if (window.scrollY > 300) {
+		button.style.display = "block";
+	} else {
+		button.style.display = "none";
+	}
+});
+
+button.addEventListener("click", () => {
+	window.scrollTo({
+		top: 0,
+		behavior: "smooth"
+	});
+});
