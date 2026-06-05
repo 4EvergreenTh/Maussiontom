@@ -162,7 +162,7 @@ button {
 .tomHr {
 
 	width: 100%;
-	height: 5%;
+	height: 5vh;
 
 	background-color: var(--colorText);
 	color: var(--colorBackground);
@@ -443,6 +443,10 @@ header div a:hover {
     border-radius: 8px;
 
     break-inside: avoid;
+
+    -webkit-user-drag: none;
+    user-select: none;
+
 }
 
 
