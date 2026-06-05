@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+  		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<title id="title">Page not found - Tom Maussion</title>
+  		<link href="404.css" rel="stylesheet" />
+		<link rel="icon" href="IMG/UI/logo_moon.png">
+	</head>
+	<body>
+
+		
+
+		<div id="grain"></div>
+
+		<header>
+			<div style="display: flex;">
+				<img src="/IMG/UI/sun.svg" id="theme_icon">
+				<h1>TOM MAUSSION</h1>
+			</div>
+
+			<img src="/IMG/UI/logo_moon.png" alt="logo" style="height: 30px;" id="logo">
+			
+			<div class="pc-only">
+				<a href="/">Home</a>
+				<a href="/magazines/">Zines</a>
+				<a href="/about/">About</a>
+				<a href="/socials/">Socials</a>
+			</div>
+			<div class="mobile-only">
+				<img src="/IMG/UI/menu_bars_sun.svg" id="openSidebar" class="trigger-image mobile-only" draggable="false"/>
+			</div>
+		</header>
+
+		<section id="sidebar">
+			<button id="closeSidebar">✕</button>
+			<button onclick="location.href='/'">Home</button>
+			<button onclick="location.href='/magazines/'">Zines</button>
+			<button onclick="location.href='/about/'">About</button>
+			<button onclick="location.href='/socials/'">Socials</button>
+		</section>
+
+		<div id="overlay"></div>
+
+		
+
+
+
+		<section id="main">
+			<div id="blur">
+				<h1>Sorry, this page doesn't exist.</h1>
+				<a href="/" style="text-decoration: underline;">Go back to home page</a>
+			</div>
+		</section>
+
+	
+		
+		<script src="/script.js"></script>
+
+	</body>
+</html>
