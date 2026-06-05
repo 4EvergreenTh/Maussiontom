@@ -1,0 +1,499 @@
+html, body {
+ 	margin: 0;
+ 	padding: 0;
+  	width: 100%;
+  	height: 100%;
+	overflow-y: visible;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+
+:root {
+	--colorBackground: #e2dbc9; 
+	--colorBackgroundLight: #d8d2c4;
+	--colorBackgroundLighter: #ccc7bc;
+
+	--colorText: #1d191a;
+	--colorTextLight: #201c1d;
+	--colorTextLighter: #272424;
+}
+
+
+[data-theme="dark"] {
+	--colorBackground: #1d191a;
+	--colorBackgroundLight: #201c1d;
+	--colorBackgroundLighter: #272323;
+
+	--colorText: #e2dbc9;
+	--colorTextLight: #d3ccbb;
+	--colorTextLighter: #c5c0b2;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+
+
+/* Graebenbach Mono */
+
+/* light */
+@font-face {
+    font-family: 'Graebenbach Mono';
+    src: url('/FONT/GraebenbachMono/GraebenbachMono-Light.eot');
+    src: local('/FONT/GraebenbachMono/Graebenbach Mono Light'), local('GraebenbachMono-Light'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Light.eot?#iefix') format('embedded-opentype'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Light.woff2') format('woff2'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Light.woff') format('woff'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Regular normal*/
+@font-face {
+    font-family: 'Graebenbach Mono';
+    src: url('/FONT/GraebenbachMono/GraebenbachMono-Regular.eot');
+    src: local('/FONT/GraebenbachMono/Graebenbach Mono Regular'), local('FONT/GraebenbachMono/GraebenbachMono-Regular'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Regular.woff2') format('woff2'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Regular.woff') format('woff'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Medium 500 */
+@font-face {
+    font-family: 'Graebenbach Mono';
+    src: url('/FONT/GraebenbachMono/GraebenbachMono-Medium.eot');
+    src: local('/FONT/GraebenbachMono/Graebenbach Mono Medium'), local('FONT/GraebenbachMono/GraebenbachMono-Medium'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Medium.woff2') format('woff2'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Medium.woff') format('woff'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Graebenbach Mono';
+    src: url('/FONT/GraebenbachMono/GraebenbachMono-Bold.eot');
+    src: local('/FONT/GraebenbachMono/Graebenbach Mono Bold'), local('GraebenbachMono-Bold'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Bold.woff2') format('woff2'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Bold.woff') format('woff'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Black 900 */
+@font-face {
+    font-family: 'Graebenbach Mono';
+    src: url('/FONT/GraebenbachMono/GraebenbachMono-Black.eot');
+    src: local('/FONT/GraebenbachMono/Graebenbach Mono Black'), local('GraebenbachMono-Black'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Black.eot?#iefix') format('embedded-opentype'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Black.woff2') format('woff2'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Black.woff') format('woff'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------- */
+
+
+h1, h2, h3, h4, h5, p, div, img, a, hr, section {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, p {
+	cursor: default;
+}
+
+
+
+body {
+	margin: 0px;
+	overflow-x: hidden;
+
+	background-color: var(--colorBackground);
+	color: var(--colorText);
+
+	font-family: 'Graebenbach Mono';
+	font-weight: normal;
+    font-style: normal;
+
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+P {
+	text-align: justify;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+button {
+	background-color: transparent;
+	font-family: 'Graebenbach Mono';
+	font-weight: normal;
+    font-style: normal;
+	border: none;
+	color: var(--colorText);
+	font-size: 16px;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+}
+
+.tomHr {
+	width: 100%;
+	height: 5%;
+
+	background-color: var(--colorText);
+	color: var(--colorBackground);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 8px;
+
+	background-color: var(--colorText);
+	color: var(--colorBackground);
+
+	height: 90%;
+	width: 30%;
+}
+
+
+
+#grain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    pointer-events: none; /* allows clicks through */
+    z-index: 9999;
+
+    background-image: url("/IMG/grain.png"); /* your noise texture */
+    background-repeat: no-repeat;
+	background-size: cover;
+
+    opacity: 0.6;
+
+    mix-blend-mode: overlay; 
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+
+header {
+	height: 70px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 0 20px;
+
+	background-color: var(--colorBackground);
+}
+
+#theme_icon {
+  	height: 30px;
+ 	cursor: pointer;
+	margin-right: 10px;
+}
+
+header h1 {
+	color: var(--colorText);
+	font-size: x-large;
+}
+
+header div a {
+	margin-left: 15px;
+	text-decoration: none;
+}
+
+header div a:hover {
+	text-decoration: underline;
+	margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Image */
+.trigger-image {
+  	height: 30px;
+  	cursor: pointer;
+}
+
+/* sidebar */
+#sidebar {
+  	position: fixed;
+  	top: 0;
+  	right: -340px;          /* hidden */
+  	width: 300px;
+  	height: 100%;
+  	background: var(--colorBackgroundLight);
+  	box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+  	transition: right 0.5s ease;
+  	padding: 20px;
+  	z-index: 1001;
+
+  	display: flex;
+  	flex-direction: column;
+}
+
+#sidebar.active {
+  	right: 0;
+}
+
+#sidebar button {
+  	height: 10%;
+}
+
+/* Overlay */
+#overlay {
+  	position: fixed;
+  	inset: 0;
+  	background: #000000;
+  
+  	opacity: 0;
+  	pointer-events: none;
+  	transition: opacity 0.3s ease;
+  	z-index: 1000;
+}
+
+#overlay.active {
+  	opacity: 0.5;
+  	pointer-events: all;
+}
+
+/* close button */
+#closeSidebar {
+  	background: none;
+  	border: none;
+  	font-size: 30px;
+  	cursor: pointer;
+  	margin-bottom: 20px;
+}
+
+#currentButton {
+  	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main {
+	height: auto;
+
+	display: flex;
+	flex-direction: column;
+    align-items: start;
+
+	
+}
+
+#banner {
+	background-image: url(IMG/banner.avif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	height: 30vh;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: start;
+
+	padding-left: 8%;
+}
+
+#banner h1 {
+	font-weight: 300;
+	font-size: 64px;
+	color: #e2dbc9;
+}
+
+
+/* -------------------------------------------------------------- */
+
+
+#content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 5%;
+	width: 100%;
+	height: auto;
+	background: linear-gradient(var(--colorBackgroundLight), var(--colorBackground));
+	padding: 5% 0;
+}
+
+#content p {
+	width: auto;
+	max-width: 50%;
+	background-color: var(--colorBackgroundLighter);
+	padding: 1%;
+	border-radius: 4px;
+}
+
+#content p a {
+	display: flex;
+	width: 50%;
+	margin: 5% auto;
+	margin-bottom: 3%;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#content p button {
+	background-color: var(--colorTextLighter);
+	color: var(--colorBackground);
+
+	padding: 10px 0;
+	border-radius: 8px;
+	transition: 0.3s ease-in;
+}
+
+#content p button:hover {
+	background-color: var(--colorBackground);
+	color: var(--colorText);
+
+	transition: 0.2s ease-in;
+}
+
+
+
+
+
+
+
+#content img {
+	width: auto;
+	max-width: 25%;
+	background-color: var(--colorBackgroundLighter);
+	padding: 1%;
+	border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+
+.pc-only {
+	display: block;
+}
+
+.mobile-only {
+	display: none;
+}
+
+
+
+/* Desktop */
+@media (max-width: 1440px) {
+
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+
+}
+
+/* Phone */
+@media (max-width: 600px) {
+	.pc-only {
+		display: none;
+	}
+
+	.mobile-only {
+		display: block;
+	}
+
+}
+
+
+
+
