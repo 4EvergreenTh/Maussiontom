@@ -5,13 +5,13 @@ const logo = document.getElementById("logo");
 
 icon.addEventListener("click", () => {
 	if (icon.src.includes("moon.svg")) {
-		icon.src = "IMG/UI/sun.svg";
-		iconbars.src = "IMG/UI/menu_bars_sun.svg";
-		logo.src = "IMG/UI/logo_sun.svg";
+		icon.src = "/IMG/UI/sun.svg";
+		iconbars.src = "/IMG/UI/menu_bars_sun.svg";
+		logo.src = "/IMG/UI/logo_sun.svg";
 	} else {
-		icon.src = "IMG/UI/moon.svg";
-		iconbars.src = "IMG/UI/menu_bars_moon.svg";
-		logo.src = "IMG/UI/logo_moon.svg";
+		icon.src = "/IMG/UI/moon.svg";
+		iconbars.src = "/IMG/UI/menu_bars_moon.svg";
+		logo.src = "/IMG/UI/logo_moon.svg";
 	}
 });
 
@@ -41,15 +41,15 @@ const savedTheme = localStorage.getItem("theme");
 if (savedTheme === "dark") {
     document.documentElement.setAttribute("data-theme", "dark");
 
-    icon.src = "IMG/UI/moon.svg";
-    iconbars.src = "IMG/UI/menu_bars_moon.svg";
-	logo.src = "IMG/UI/logo_moon.svg";
+    icon.src = "/IMG/UI/moon.svg";
+    iconbars.src = "/IMG/UI/menu_bars_moon.svg";
+	logo.src = "/IMG/UI/logo_moon.svg";
 } else {
     document.documentElement.setAttribute("data-theme", "light");
 
-    icon.src = "IMG/UI/sun.svg";
-    iconbars.src = "IMG/UI/menu_bars_sun.svg";
-	logo.src = "IMG/UI/logo_sun.svg";
+    icon.src = "/IMG/UI/sun.svg";
+    iconbars.src = "/IMG/UI/menu_bars_sun.svg";
+	logo.src = "/IMG/UI/logo_sun.svg";
 }
 
 
@@ -92,5 +92,5 @@ overlay.addEventListener("click", () => {
 // const isNov18 = now.getDate() === 18 && now.getMonth() === 10;
 
 // if (isNov18) {
-// 	document.getElementById("main").style.backgroundImage = 'url("IMG/18nov.jpg")';
+// 	document.getElementById("main").style.backgroundImage = 'url("/IMG/18nov.jpg")';
 // }
