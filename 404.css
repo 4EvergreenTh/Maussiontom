@@ -37,12 +37,12 @@ html, body {
 /* light */
 @font-face {
     font-family: 'Graebenbach Mono';
-    src: url('FONT/GraebenbachMono/GraebenbachMono-Light.eot');
-    src: local('FONT/GraebenbachMono/Graebenbach Mono Light'), local('GraebenbachMono-Light'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Light.eot?#iefix') format('embedded-opentype'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Light.woff2') format('woff2'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Light.woff') format('woff'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Light.ttf') format('truetype');
+    src: url('/FONT/GraebenbachMono/GraebenbachMono-Light.eot');
+    src: local('/FONT/GraebenbachMono/Graebenbach Mono Light'), local('GraebenbachMono-Light'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Light.eot?#iefix') format('embedded-opentype'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Light.woff2') format('woff2'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Light.woff') format('woff'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -51,12 +51,12 @@ html, body {
 /* Regular normal*/
 @font-face {
     font-family: 'Graebenbach Mono';
-    src: url('FONT/GraebenbachMono/GraebenbachMono-Regular.eot');
-    src: local('FONT/GraebenbachMono/Graebenbach Mono Regular'), local('FONT/GraebenbachMono/GraebenbachMono-Regular'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Regular.eot?#iefix') format('embedded-opentype'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Regular.woff2') format('woff2'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Regular.woff') format('woff'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Regular.ttf') format('truetype');
+    src: url('/FONT/GraebenbachMono/GraebenbachMono-Regular.eot');
+    src: local('/FONT/GraebenbachMono/Graebenbach Mono Regular'), local('FONT/GraebenbachMono/GraebenbachMono-Regular'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Regular.woff2') format('woff2'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Regular.woff') format('woff'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -65,12 +65,12 @@ html, body {
 /* Medium 500 */
 @font-face {
     font-family: 'Graebenbach Mono';
-    src: url('FONT/GraebenbachMono/GraebenbachMono-Medium.eot');
-    src: local('FONT/GraebenbachMono/Graebenbach Mono Medium'), local('FONT/GraebenbachMono/GraebenbachMono-Medium'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Medium.eot?#iefix') format('embedded-opentype'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Medium.woff2') format('woff2'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Medium.woff') format('woff'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Medium.ttf') format('truetype');
+    src: url('/FONT/GraebenbachMono/GraebenbachMono-Medium.eot');
+    src: local('/FONT/GraebenbachMono/Graebenbach Mono Medium'), local('FONT/GraebenbachMono/GraebenbachMono-Medium'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Medium.woff2') format('woff2'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Medium.woff') format('woff'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -79,12 +79,12 @@ html, body {
 /* Bold */
 @font-face {
     font-family: 'Graebenbach Mono';
-    src: url('FONT/GraebenbachMono/GraebenbachMono-Bold.eot');
-    src: local('FONT/GraebenbachMono/Graebenbach Mono Bold'), local('GraebenbachMono-Bold'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Bold.eot?#iefix') format('embedded-opentype'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Bold.woff2') format('woff2'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Bold.woff') format('woff'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Bold.ttf') format('truetype');
+    src: url('/FONT/GraebenbachMono/GraebenbachMono-Bold.eot');
+    src: local('/FONT/GraebenbachMono/Graebenbach Mono Bold'), local('GraebenbachMono-Bold'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Bold.woff2') format('woff2'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Bold.woff') format('woff'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -93,12 +93,12 @@ html, body {
 /* Black 900 */
 @font-face {
     font-family: 'Graebenbach Mono';
-    src: url('FONT/GraebenbachMono/GraebenbachMono-Black.eot');
-    src: local('FONT/GraebenbachMono/Graebenbach Mono Black'), local('GraebenbachMono-Black'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Black.eot?#iefix') format('embedded-opentype'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Black.woff2') format('woff2'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Black.woff') format('woff'),
-        url('FONT/GraebenbachMono/GraebenbachMono-Black.ttf') format('truetype');
+    src: url('/FONT/GraebenbachMono/GraebenbachMono-Black.eot');
+    src: local('/FONT/GraebenbachMono/Graebenbach Mono Black'), local('GraebenbachMono-Black'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Black.eot?#iefix') format('embedded-opentype'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Black.woff2') format('woff2'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Black.woff') format('woff'),
+        url('/FONT/GraebenbachMono/GraebenbachMono-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -197,7 +197,7 @@ button {
     pointer-events: none; /* allows clicks through */
     z-index: 9999;
 
-    background-image: url("IMG/grain.png"); /* your noise texture */
+    background-image: url("/IMG/grain.png"); /* your noise texture */
     background-repeat: no-repeat;
 	background-size: cover;
 
@@ -343,7 +343,7 @@ header div a:hover {
     align-items: center;
     position: relative;
 
-	background-image: url(IMG/404.jpg);
+	background-image: url(/IMG/404.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
