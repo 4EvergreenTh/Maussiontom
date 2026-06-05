@@ -167,8 +167,11 @@ button {
 	color: var(--colorBackground);
 
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
+	flex-wrap: nowrap;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 .container {
@@ -499,6 +502,14 @@ header div a:hover {
 		padding: 4%;
 		border-radius: 16px;
 	}
+
+	.tomHr span:nth-child(n+5) {
+		display: none;
+	}
+
+
+
+
 }
 
 /* Phone */
@@ -530,6 +541,10 @@ header div a:hover {
 
 		padding: 4%;
 		border-radius: 16px;
+	}
+
+	.tomHr span:nth-child(n+3) {
+		display: none;
 	}
 
 }
