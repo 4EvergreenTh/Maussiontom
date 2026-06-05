@@ -479,7 +479,26 @@ header div a:hover {
 
 /* Tablet */
 @media (max-width: 1024px) {
+	#content {
+		flex-direction: column-reverse;
+	}
 
+	#content img {
+		width: 50%;
+		max-width: 50%;
+		margin: 10% 0;
+
+		padding: 4%;
+		border-radius: 16px;
+	}
+
+	#content p {
+		width: 80%;
+		max-width: 80%;
+
+		padding: 4%;
+		border-radius: 16px;
+	}
 }
 
 /* Phone */
@@ -490,6 +509,27 @@ header div a:hover {
 
 	.mobile-only {
 		display: block;
+	}
+
+	#content {
+		flex-direction: column-reverse;
+	}
+
+	#content img {
+		width: 70%;
+		max-width: 70%;
+		margin: 10% 0;
+
+		padding: 4%;
+		border-radius: 16px;
+	}
+
+	#content p {
+		width: 80%;
+		max-width: 80%;
+
+		padding: 4%;
+		border-radius: 16px;
 	}
 
 }
