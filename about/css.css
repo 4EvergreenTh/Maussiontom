@@ -22,7 +22,7 @@ html, body {
 [data-theme="dark"] {
 	--colorBackground: #1d191a;
 	--colorBackgroundLight: #201c1d;
-	--colorBackgroundLighter: #272323;
+	--colorBackgroundLighter: #272324;
 
 	--colorText: #e2dbc9;
 	--colorTextLight: #d3ccbb;
