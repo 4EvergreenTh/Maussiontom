@@ -7,11 +7,11 @@ icon.addEventListener("click", () => {
 	if (icon.src.includes("moon.svg")) {
 		icon.src = "/IMG/UI/sun.svg";
 		iconbars.src = "/IMG/UI/menu_bars_sun.svg";
-		logo.src = "/IMG/UI/logo_sun.svg";
+		logo.src = "/IMG/UI/logo_sun.png";
 	} else {
 		icon.src = "/IMG/UI/moon.svg";
 		iconbars.src = "/IMG/UI/menu_bars_moon.svg";
-		logo.src = "/IMG/UI/logo_moon.svg";
+		logo.src = "/IMG/UI/logo_moon.png";
 	}
 });
 
@@ -43,13 +43,13 @@ if (savedTheme === "dark") {
 
     icon.src = "/IMG/UI/moon.svg";
     iconbars.src = "/IMG/UI/menu_bars_moon.svg";
-	logo.src = "/IMG/UI/logo_moon.svg";
+	logo.src = "/IMG/UI/logo_moon.png";
 } else {
     document.documentElement.setAttribute("data-theme", "light");
 
     icon.src = "/IMG/UI/sun.svg";
     iconbars.src = "/IMG/UI/menu_bars_sun.svg";
-	logo.src = "/IMG/UI/logo_sun.svg";
+	logo.src = "/IMG/UI/logo_sun.png";
 }
 
 
