@@ -354,7 +354,7 @@ header div a:hover {
 
 	display: flex;
 	flex-direction: column;
-    align-items: start;
+    align-items: center;
 
 	
 }
@@ -392,26 +392,40 @@ header div a:hover {
 	align-items: start;
 	text-align: center;
 	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 80px;
+	align-items: flex-start;
 
 	height: auto;
-	width: 100%;
+	width: 80%;
+
+	padding: 10vh 0;
 }
 
 .social {
 	background-color: var(--colorBackgroundLight);
+	border: 3px solid var(--colorText);
 
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 
-	width: 200px;
-  	height: 200px;
+	width: 20%;
+  	height: 20%;
 
-	margin: 10%;
+	margin: 0%;
 	padding-top: 1%;
 	padding-bottom: 2%;
 	border-radius: 8px;
+
+	width: 250px;
+	height: auto;
+	margin: 0;
+}
+
+.social a {
+	width: 90%;
 }
 
 
@@ -466,6 +480,9 @@ svg {
 	.tomHr span:nth-child(n+5) {
 		display: none;
 	}
+
+
+
 
 
 
