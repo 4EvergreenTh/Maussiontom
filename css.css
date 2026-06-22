@@ -460,9 +460,9 @@ header div a:hover {
 }
 
 #gallery_button {
-	border: 2px solid #e2dbc900;
-	background-color: #e2dbc917;;
-	color: #e2dbc985;
+	border: 2px solid var(--colorTextLighter);
+	background-color: var(--colorBackgroundLight);
+	color: var(--colorText);
 
 	height: 10%;
 	width: 150px;
@@ -481,9 +481,9 @@ header div a:hover {
 }
 
 #gallery_button:hover {
-	border: 2px solid #e2dbc93f;
-	background-color: #e2dbc92a;;
-	color: #e2dbc9;
+	border: 2px solid var(--colorText);
+	background-color: var(--colorTextLight);
+	color: var(--colorBackground);
 
 	transition: 0.2s ease-out;
 }
