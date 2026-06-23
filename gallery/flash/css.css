@@ -475,20 +475,6 @@ header div a:hover {
 		display: block;
 	}
 
-    #main {
-		background-image: url(IMG/main_phone.jpg);
-
-        grid-template-columns: 1fr;
-        justify-items: center;
-		align-items: end;
-    }
-
-    #main_para {
-        grid-column: 1;
-        width: 90%;
-		margin-bottom: 30px;
-    }
-
 	.tomHr span:nth-child(n+3) {
 		display: none;
 	}
