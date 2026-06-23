@@ -362,7 +362,7 @@ header div a:hover {
 
 	display: flex;
 	flex-direction: column;
-    align-items: center;
+    align-items: start;
 
 	
 }
@@ -390,7 +390,6 @@ header div a:hover {
 	font-size: 64px;
 	color: #e2dbc9;
 }
-
 
 
 /* --------------------------------------------------- */
@@ -474,20 +473,6 @@ header div a:hover {
 	.mobile-only {
 		display: block;
 	}
-
-    #main {
-		background-image: url(IMG/main_phone.jpg);
-
-        grid-template-columns: 1fr;
-        justify-items: center;
-		align-items: end;
-    }
-
-    #main_para {
-        grid-column: 1;
-        width: 90%;
-		margin-bottom: 30px;
-    }
 
 	.tomHr span:nth-child(n+3) {
 		display: none;
