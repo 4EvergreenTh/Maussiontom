@@ -1,113 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-  		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  		<title id="title">Home - Tom Maussion</title>
-  		<link href="css.css" rel="stylesheet" />
-		<link rel="icon" href="IMG/UI/logo_moon.png">
-		<meta name="description" content="A collection of my street, urban, flash, and portrait photography over the years.">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>The Pinecode Protocol | Evthbound</title>
+    <meta name="author" content="EvergreenTh" />
+    <link rel="icon" href="img/pinecode_logo.png">
+  </head>
 
-		<meta property="og:title" content="Homepage - Tom Maussion">
-		<meta property="og:site_name" content="Tom Maussion">
-		<meta property="og:description" content="A collection of my street, urban, flash, and portrait photography over the years.">
-		<meta property="og:image" content="https://maussiontom.com/IMG/UI/OG_logo.png">
-		<meta property="og:url" content="https://maussiontom.com">
-		<meta property="og:type" content="website">
 
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:title" content="Homepage - Tom Maussion">
-		<meta name="twitter:description" content="A collection of my street, urban, flash, and portrait photography over the years.">
-		<meta name="twitter:image" content="https://maussiontom.com/IMG/UI/OG_logo.png">
-	</head>
 	<body>
 
-		
 
-		<div id="grain"></div>
-		<button id="backToTop" aria-label="Back to top">↑</button>
+    <script>
+      const isFullscreenMode = window.location.hash === "#fullscreen";
 
-		<header>
-			<div style="display: flex;">
-				<img src="IMG/UI/sun.svg" id="theme_icon">
-				<h1>TOM MAUSSION</h1>
-			</div>
-
-			<img src="IMG/UI/logo_moon.png" alt="logo" style="height: 30px;" id="logo">
-			
-			<div class="pc-only">
-				<a href="/" style="text-decoration: underline;">Home</a>
-				<a href="gallery/">Gallery</a>
-				<a href="prints/">Prints</a>
-				<a href="/films/">Films</a>
-				<a href="about/">About</a>
-				<a href="socials/">Socials</a>
-			</div>
-			<div class="mobile-only">
-				<img src="IMG/UI/menu_bars_sun.svg" id="openSidebar" class="trigger-image mobile-only" draggable="false"/>
-			</div>
-		</header>
-
-		<section id="sidebar">
-			<button id="closeSidebar">✕</button>
-			<button onclick="location.href='/'" id="currentButton">Home</button>
-			<button onclick="location.href='gallery/'">Gallery</button>
-			<button onclick="location.href='prints/'">Prints</button>
-			<button onclick="location.href='/films/'">Films</button>
-			<button onclick="location.href='about/'">About</button>
-			<button onclick="location.href='socials/'">Socials</button>
-		</section>
-
-		<div id="overlay"></div>
-
-		
+      if (isFullscreenMode) {
+        document.documentElement.classList.add("fullscreen-mode");
+      }
+    </script>    
 
 
+		<div class="fadeIn">
+      <div id="gbc-wrapper">
+        <img src="gbc.png" alt="Game Boy Overlay" style="pointer-events: none;" id="gbc" />
 
-		<section id="main">
-			<div id="main_para">
-				<p>
-					Hi, I'm Tom.
-					<!-- <br> -->
-					I'm 20 and I'm a photographer, videographer, director of photography, sketch artist, musician, web and game developer.
-					<!-- <br> -->
-					So, as you can see: I love art.
-				</p>
-				<a href="about/"><button>See more</button></a>
-			</div>
-			
+        <!-- Canvas in screen -->
+        <canvas class="mainCanvas" width="256" height="224">No Canvas Support</canvas>
+        
+        <!-- D-Pad Container -->
+        <div id="controller">
+          <div id="controller_dpad">
+            <div id="controller_left"></div>
+            <div id="controller_right"></div>
+            <div id="controller_up"></div>
+            <div id="controller_down"></div>
+          </div>
 
-		</section>
-
-		<div class="tomHr">
-			<span>Tom Maussion</span><span>Tom Maussion</span><span>Tom Maussion</span><span>Tom Maussion</span><span>Tom Maussion</span><span>Tom Maussion</span><span>Tom Maussion</span>
+          <div id="controller_select" class="capsuleBtn">Select</div>
+          <div id="controller_start" class="capsuleBtn">Start</div>
+          <div id="controller_b" class="roundBtn">B</div>
+          <div id="controller_a" class="roundBtn">A</div>
+      </div>
 		</div>
-
-
-		<div class="carousel">
-			<div class="track">
-				<!-- 1 -->
-				<div class="slide"><img src="gallery/favorite/fav_1.avif" draggable="false"/></div>
-				<div class="slide"><img src="gallery/favorite/fav_2.avif" draggable="false"/></div>
-				<div class="slide"><img src="gallery/favorite/fav_3.avif" draggable="false"/></div>
-				<div class="slide"><img src="gallery/favorite/fav_4.avif" draggable="false"/></div>
-				<div class="slide"><img src="gallery/favorite/fav_5.avif" draggable="false"/></div>
-
-				<!-- duplicate for loop -->
-				<div class="slide"><img src="gallery/favorite/fav_1.avif" draggable="false"/></div>
-				<div class="slide"><img src="gallery/favorite/fav_2.avif" draggable="false"/></div>
-				<div class="slide"><img src="gallery/favorite/fav_3.avif" draggable="false"/></div>
-				<div class="slide"><img src="gallery/favorite/fav_4.avif" draggable="false"/></div>
-				<div class="slide"><img src="gallery/favorite/fav_5.avif" draggable="false"/></div>
-			</div>
-			<a href="gallery/" id="gallery_button">See gallery</a>
-		</div>
-
-
-
-
-		
-		<script src="script.js"></script>
-
-	</body>
-</html>
+  </div>
+    
+    
+    
+    <script>
+      const customControls = {"up":["ArrowUp","z"],"down":["ArrowDown","s"],"left":["ArrowLeft","q"],"right":["ArrowRight","d"],"a":["a"],"b":["e"],"start":["Enter"],"select":["Shift"]}
+    </script>
+    <script src="binjgb.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/debugger.js"></script>
+</body>
