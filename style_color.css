@@ -1,0 +1,20 @@
+:root {
+	--colorBackground: #e2dbc9; 
+	--colorBackgroundLight: #d8d2c4;
+	--colorBackgroundLighter: #ccc7bc;
+
+	--colorText: #1d191a;
+	--colorTextLight: #201c1d;
+	--colorTextLighter: #272424;
+}
+
+
+[data-theme="dark"] {
+	--colorBackground: #1d191a;
+	--colorBackgroundLight: #201c1d;
+	--colorBackgroundLighter: #272323;
+
+	--colorText: #e2dbc9;
+	--colorTextLight: #d3ccbb;
+	--colorTextLighter: #c5c0b2;
+}

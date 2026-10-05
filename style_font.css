@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Graebenbach Mono';
+    src: url('GraebenbachMono-Regular.eot');
+    src: local('Graebenbach Mono Regular'), local('GraebenbachMono-Regular'),
+        url('GraebenbachMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('GraebenbachMono-Regular.woff2') format('woff2'),
+        url('GraebenbachMono-Regular.woff') format('woff'),
+        url('GraebenbachMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graebenbach Mono';
+    src: url('GraebenbachMono-Bold.eot');
+    src: local('Graebenbach Mono Bold'), local('GraebenbachMono-Bold'),
+        url('GraebenbachMono-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GraebenbachMono-Bold.woff2') format('woff2'),
+        url('GraebenbachMono-Bold.woff') format('woff'),
+        url('GraebenbachMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graebenbach Mono';
+    src: url('GraebenbachMono-Medium.eot');
+    src: local('Graebenbach Mono Medium'), local('GraebenbachMono-Medium'),
+        url('GraebenbachMono-Medium.eot?#iefix') format('embedded-opentype'),
+        url('GraebenbachMono-Medium.woff2') format('woff2'),
+        url('GraebenbachMono-Medium.woff') format('woff'),
+        url('GraebenbachMono-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graebenbach Mono';
+    src: url('GraebenbachMono-Black.eot');
+    src: local('Graebenbach Mono Black'), local('GraebenbachMono-Black'),
+        url('GraebenbachMono-Black.eot?#iefix') format('embedded-opentype'),
+        url('GraebenbachMono-Black.woff2') format('woff2'),
+        url('GraebenbachMono-Black.woff') format('woff'),
+        url('GraebenbachMono-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graebenbach Mono';
+    src: url('GraebenbachMono-Light.eot');
+    src: local('Graebenbach Mono Light'), local('GraebenbachMono-Light'),
+        url('GraebenbachMono-Light.eot?#iefix') format('embedded-opentype'),
+        url('GraebenbachMono-Light.woff2') format('woff2'),
+        url('GraebenbachMono-Light.woff') format('woff'),
+        url('GraebenbachMono-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
