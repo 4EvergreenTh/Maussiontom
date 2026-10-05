@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 	<head>
   		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
   		<title id="title">Avant l'Aube - Tom Maussion</title>
-  		<link href="css.css" rel="stylesheet" />
+
+  		<link href="style.css" rel="stylesheet"/>
+		<link href="/style_color.css" rel="stylesheet"/>
+		<link href="/style_font.css" rel="stylesheet"/>
+		<link href="/style_langButton.css" rel="stylesheet"/>
+
 		<link rel="icon" href="/IMG/UI/logo_moon.png">
 		<meta name="description" content="How to rebuild a family life after 10 years of a life that was taken away?">
 
@@ -27,20 +32,23 @@
 		<div id="grain"></div>
 
 		<header>
-			<div style="display: flex;">
-				<img src="/IMG/UI/sun.svg" id="theme_icon">
+			<div style="display: flex; align-items: center;">
+				<div style="display: flex; flex-direction: column; align-items: center; margin-right: 15px;">
+					<button id="language-button">FR</button>
+					<img src="IMG/UI/sun.svg" id="theme_icon">
+				</div>
 				<h1>TOM MAUSSION</h1>
 			</div>
 
 			<img src="/IMG/UI/logo_moon.png" alt="logo" style="height: 30px;" id="logo">
 			
 			<div class="pc-only">
-				<a href="/">Home</a>
-				<a href="/gallery/">Gallery</a>
-				<a href="/prints/">Prints</a>
-				<a href="/films/">Films</a>
-				<a href="/about/">About</a>
-				<a href="/socials/">Socials</a>
+				<a href="/" data-i18n="home"></a>
+				<a href="/gallery/" data-i18n="gallery"></a>
+				<a href="/prints/" data-i18n="prints"></a>
+				<a href="/films/" data-i18n="films"></a>
+				<a href="/about/" data-i18n="about"></a>
+				<a href="/socials/" data-i18n="socials"></a>
 			</div>
 			<div class="mobile-only">
 				<img src="/IMG/UI/menu_bars_sun.svg" id="openSidebar" class="trigger-image mobile-only" draggable="false"/>
@@ -49,12 +57,12 @@
 
 		<section id="sidebar">
 			<button id="closeSidebar">✕</button>
-			<button onclick="location.href='/'">Home</button>
-			<button onclick="location.href='/gallery/'">Gallery</button>
-			<button onclick="location.href='/prints/'">Prints</button>
-			<button onclick="location.href='/films/'">Films</button>
-			<button onclick="location.href='/about/'">About</button>
-			<button onclick="location.href='/socials/'">Socials</button>
+			<button onclick="location.href='/'" data-i18n="home"></button>
+			<button onclick="location.href='/gallery'" data-i18n="gallery"></button>
+			<button onclick="location.href='/prints/'" data-i18n="prints"></button>
+			<button onclick="location.href='/films/'" data-i18n="films"></button>
+			<button onclick="location.href='/about/'" data-i18n="about"></button>
+			<button onclick="location.href='/socials/'" data-i18n="socials"></button>
 		</section>
 
 		<div id="overlay"></div>
@@ -78,19 +86,19 @@
 					<img src="IMG/poster.avif" alt="poster" id="poster">
 					<div>
 						<h2 id="title">Avant l'Aube (2026) — Livy Perdreau</h2>
-						<h2>Worked as a Chief Lighting Technician</h2>
+						<h2 data-i18n="workedAs_chiefLightingTechnician"></h2>
 
 						<hr class="pc-only">
 
-						<p class="pc-only pitchSynopsis">How to rebuild a family life after 10 years of a life that was taken away?</p>
-						<p class="pc-only pitchSynopsis">After spending 10 years in prison for a crime he did not commit, Thomas returns home and tries to reconnect with his family.</p>
+						<p class="pc-only pitchSynopsis" data-i18n="pitch_avantlaube"></p>
+						<p class="pc-only pitchSynopsis" data-i18n="synopsis_avantlaube"></p>
 					</div>
 				</div>
 
 				<hr class="mobile-only">
 
-				<p class="mobile-only pitchSynopsis">How to rebuild a family life after 10 years of a life that was taken away?</p>
-				<p class="mobile-only pitchSynopsis">After spending 10 years in prison for a crime he did not commit, Thomas returns home and tries to reconnect with his family.</p>
+				<p class="mobile-only pitchSynopsis" data-i18n="pitch_avantlaube"></p>
+				<p class="mobile-only pitchSynopsis" data-i18n="synospsis_avantlaube"></p>
 				
 				<div id="gallery">
 					<div>
@@ -107,6 +115,7 @@
 	
 		
 		<script src="/script.js"></script>
+		<script src="/lang.js"></script>
 
 	</body>
 </html>
