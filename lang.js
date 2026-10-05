@@ -184,7 +184,7 @@ const translations = {
         about_para_i: "I later went to film school, where I discovered filmmaking from another perspective — not just as a way of documenting life, but as a way of creating stories, images, and entire worlds.",
         about_para_in: "In 2026, I bought a Fujifilm X-E1 with a small prime lens. The Sony was an incredible camera, but it was too big for the way I wanted to photograph. The X-E1 was small enough to carry everywhere, and that changed everything. I started taking it with me every day. Instead of thinking 'I should bring my camera,' I simply had a camera with me.",
         about_para_that: "That's when photography really became part of my everyday life.",		
-        about_para_today: "Today, I work across photography, filmmaking, illustration, music, and digital creation. My photography focuses mainly on **street, urban, flash, and portrait work** — finding interesting light, people, textures, and moments in places that might otherwise go unnoticed.",
+        about_para_today: "Today, I work across photography, filmmaking, illustration, music, and digital creation. My photography focuses mainly on street, urban, flash, and portrait work — finding interesting light, people, textures, and moments in places that might otherwise go unnoticed.",
         about_para_for: "For me, art is a way of expressing what I feel.",
         about_para_thanks: "Thanks for being here. Have a look around, and if something catches your eye, send me a message !",
 
